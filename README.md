@@ -35,7 +35,7 @@ Epochs: 20
 
 ## Results
 
-Test accuracy: **[66%]**
+Test accuracy: **66%**
 
 ## Inference
 
