@@ -5,21 +5,23 @@ classifying images from the CIFAR-10 dataset.
 
 ## Architecture
 
-Input: 32 × 32 RGB image
+Input: 32 × 32 × 3
 
-Conv2D (3 → 12)
+Conv2D: 3 → 12
 ReLU
 Max Pooling
 
-Conv2D (12 → 24)
+Conv2D: 12 → 24
 ReLU
 Max Pooling
 
-Fully Connected (600 → 120)
+Linear: 600 → 120
 ReLU
-Fully Connected (120 → 84)
+
+Linear: 120 → 84
 ReLU
-Fully Connected (84 → 10)
+
+Linear: 84 → 10
 
 ## Training
 
