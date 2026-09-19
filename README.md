@@ -33,9 +33,7 @@ Epochs: 20
 
 ## Results
 
-Test accuracy: **[X%]**
-
-[CONFUSION MATRIX / EXAMPLES]
+Test accuracy: **[66%]**
 
 ## Inference
 
